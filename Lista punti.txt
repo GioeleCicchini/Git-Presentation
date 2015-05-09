@@ -1,0 +1,15 @@
+1) Si può lavorare sia solo in locale oppure in relazione con il server remoto
+di GitHub.
+
+2) La tua copia locale del repository è composta da tre "alberi" mantenuti da 
+git (Working dir, Index e Head). Spiegazione di questi 3 "alberi".
+
+3) Il modello di storage.
+
+4) Presentazione di Branch.
+
+5) Attenzione ai merge.
+
+6) Presentazione comandi basilari.
+
+7) Sperimentazione con pc.
