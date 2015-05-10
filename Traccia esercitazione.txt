@@ -7,8 +7,9 @@
 	touch templates/bar.txt
 
 	git init
+	git status
 	git add libs/foo.txt templates/bar.txt  //Aggiunta dei file nell'index
-	git status //Vedere se è possibile farlo anche prima delle add
+	git status
 
 2) Slide 5 (Commit)
 	git commit -m "commit A, il mio primo commit"
@@ -18,3 +19,18 @@
 	echo "happy happy joy joy" > doh.html
 	git add libs/foo.txt doh.html
 	git commit -m "Commit B, Il mio secondo commit"
+
+4) Slide 9 (Presentazione checkout)
+	git log --oneline
+	git checkout "Sha Commit A"
+
+5) Slide 10 (Divergere)
+	echo "ei fu siccome immobile" > README.md
+	git add README.md
+	git commit -m "Ecco il commit C"
+	git branch bob "Sha commit A" //Creare branch
+	git checkout "Sha commit C"
+	git branch piccio   //Far vedere su gitk
+	git checkout master
+	git branch -d bob   //Eliminazione branch
+	git branch -d piccio
