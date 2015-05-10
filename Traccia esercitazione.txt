@@ -1,0 +1,20 @@
+1) Slide 4 (Creazione della directory di progetto e di alcune sotto-directory)
+	mkdir progetto
+	cd progetto
+	mkdir libs
+	touch libs/foo.txt
+	mkdir templates
+	touch templates/bar.txt
+
+	git init
+	git add libs/foo.txt templates/bar.txt  //Aggiunta dei file nell'index
+	git status //Vedere se è possibile farlo anche prima delle add
+
+2) Slide 5 (Commit)
+	git commit -m "commit A, il mio primo commit"
+
+3) Slide 7 (Modifica e aggiunta file. Altro commit)
+	echo "nel mezzo del cammin" >> libs/foo.txt
+	echo "happy happy joy joy" > doh.html
+	git add libs/foo.txt doh.html
+	git commit -m "Commit B, Il mio secondo commit"
