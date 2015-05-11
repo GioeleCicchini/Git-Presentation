@@ -29,6 +29,7 @@
 	git add README.md
 	git commit -m "Ecco il commit C"
 	git branch bob "Sha commit A" //Creare branch
+	git log --oneline
 	git checkout "Sha commit C"
 	git branch piccio   //Far vedere su gitk
 	git checkout master
