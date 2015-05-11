@@ -1,13 +1,18 @@
-git clone "Url della repository su GitHub"
-//Creare il file "prova.txt" e inserire una linea
-git add prova.txt
-git commit -m "Aggiunta del file prova.txt"
-git push origin master
+1) Comandi per merge 
+	git clone "Url della repository su GitHub"
+	//Creare il file "prova.txt" e inserire una linea
+	git add prova.txt
+	git commit -m "Aggiunta del file prova.txt"
+	git push origin master
 
-//Attesa comandi di Emanuele
+	//Attesa comandi di Emanuele
 
-//Si aggiunge altra roba su "prova.txt"
-git add prova.txt
-git commit -m "Aggiornamento prova.txt"
-git push origin master
-git pull origin master //Qui inizia il merge, far vedere cosa accade ai file su file system, risolvere il merge
+	//Si aggiunge altra roba su "prova.txt"
+	git add prova.txt
+	git commit -m "Aggiornamento prova.txt"
+	git push origin master
+	git pull origin master //Qui inizia il merge, far vedere cosa accade ai file su file system, risolvere il merge
+	git diff HEAD origin/master //Fa vedere le differenze dei file da mergiare
+	git add prova.txt
+	git commit -m "Risoluzione conflitto"
+	git push origin master

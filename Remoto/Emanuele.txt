@@ -1,10 +1,12 @@
-git remote add "Url repository su GitHub"
-git push origin master //Far vedese su GitHub cosa è successo alla repository
+1) Comandi per merge
+	git remote add origin "Url repository su GitHub"
+	git push origin master //Far vedese su GitHub cosa è successo alla repository
+	//Aggiungere Gioele ai contributors
 
-//Attesa comandi di Gioele
+	//Attesa comandi di Gioele
 
-git pull origin master //Per ri-allinearmi
-//Modificare il file "prova.txt" aggiungendo due linee
-git add prova.txt
-git commit -m "Modifica di prova.txt"
-git push origin master
+	git pull origin master //Per ri-allinearmi
+	//Modificare il file "prova.txt" aggiungendo due linee
+	git add prova.txt
+	git commit -m "Modifica di prova.txt"
+	git push origin master
