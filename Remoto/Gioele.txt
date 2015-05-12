@@ -1,6 +1,7 @@
 1) Comandi per merge 
 	git clone "Url della repository su GitHub"
 	//Creare il file "prova.txt" e inserire una linea
+	cd progetto
 	git add prova.txt
 	git commit -m "Aggiunta del file prova.txt"
 	git push origin master
