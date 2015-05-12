@@ -10,3 +10,6 @@
 	git add prova.txt
 	git commit -m "Modifica di prova.txt"
 	git push origin master
+
+	//Attesa di Gioele
+	//Serza riallinearmi cambiare qualcosa e fare un merge per far vedere cosa accade con Eclipse
